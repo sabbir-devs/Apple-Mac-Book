@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy | Mac Book Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!----------------------------------- Header start ------------------------------->
+    <header class="header">
+        <p>Buy Your Favourite Mac Book Pro!</p>
+    </header>
+    <!----------------------------------- Header end ------------------------------->
+    <!------------------------------------------------ Main Section Start ----------------------------------------------->
+    <main>
+        <!----------------------------------- Mac start ------------------------------->
+        <section id="main_section">
+            <div class="content-left">
+                <img src="images/mac.png" alt="">
+            </div>
+            <div class="content-right">
+                <div class="">
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Magic Keyboard US English</p> 
+                </div>
+                <div class="option-buttons">
+                    <h3>Memory</h3>
+                    <button onclick="basiTaka('olpo-memory')">8GB unified memory</button>
+                    <button onclick="basiTaka('16GB-memory')">16GB unified memory</button>
+                </div>
+                <div class="option-buttons">
+                    <h3>Storage</h3>
+                    <button onclick="basiTaka('olpo-ssd')">256GB SSD storage</button>
+                    <button onclick="basiTaka('521GB-ssd')">521GB SSD storage</button>
+                    <button onclick="basiTaka('1TB-ssd')">1TB SSD storage</button>
+                </div>
+                <div class="option-buttons">
+                    <h3>Memory</h3>
+                    <button onclick="basiTaka('mangna-dari-koira-delivery')">Friday,Aug 25 FREE Prime Delivery</button>
+                    <button onclick="basiTaka('taka-diya-taratai-delivery')">Friday, Aug 21 Delivery charge $20</button>
+                </div>
+                <br>
+                <br>
+                <!-------- price section  ----------->
+                <div class="price-section">
+                    <div class="price_first_div">
+                        <h3>Best Price: </h3>
+                        <h3> $<span>1299</span></h3>
+                    </div>
+                    <hr>
+                    <div class="price_first_div">
+                        <h3>Extra Memory Cost: </h3>
+                        <h3> $<span id="memory-ar-taka">0</span></h3>
+                    </div>
+                    <hr>
+                    <div class="price_first_div">
+                        <h3>Extra Storage Cost: </h3>
+                        <h3> $<span id="ssd-ar-taka">0</span></h3>
+                    </div>
+                    <hr>
+                    <div class="price_first_div">
+                        <h3>Delivery Charge: </h3>
+                        <h3> $<span id="barita-delivary-deoar-taka">0</span></h3>
+                    </div>
+                    <hr>
+                    <div class="price_first_div">
+                        <h3>Total Price: </h3>
+                        <h3> $<span id="pura-taka-before-sobkisu">1299</span></h3>
+                    </div>
+                </div>
+                <!-- Promo code section -->
+                <div class="code-section">
+                    <h3>Add Promo Code</h3>
+                    <div class="promo-code">
+                        <input id="promo-input" type="text">
+                        <button id="promo-apply">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------------------------------- Mac end ------------------------------->
+
+        <!--------------------------- Total Price start ------------------------>
+        <section class="total">
+            <div class="total-price">
+                <h1>Total: $<span id="pura-taka-after-sobkisu">1299</span></h1>
+            </div>
+        </section>
+        <!--------------------------- Total Price end ------------------------>
+    </main>
+    <!--------------------------------------------------- Main Section End ------------------------------------------>
+    <!----------------------------------- Footer start ----------------------------->
+    <footer class="footer">
+        <p>&copy; Apple Mac Book Pro</p>
+    </footer>
+    <!----------------------------------- Footer start ----------------------------->
+    <script src="js/script.js"></script>
+</body>
+</html>

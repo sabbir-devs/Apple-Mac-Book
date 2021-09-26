@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+/*------------------ HEADER start --------------------*/
+.header{
+    font-family: '';
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 700;
+}
+/*------------------ HEADER end --------------------*/
+/*------------------ MAC START --------------------*/
+#main_section{
+    width: 90%;
+    margin: 10% auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*--------- Content Left ---------*/
+#main_section .content-left{
+    width: 50%;
+}
+#main_section .content-left img{
+    width: 100%;
+    padding: 2rem;
+}
+/*-------- Contant Right --------*/
+#main_section .content-right{
+    width: 50%;
+    padding: 2em;
+}
+#main_section .content-right h1{
+    font-size: 2.5em;
+}
+#main_section .content-right p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+/*--------------- Content Right Buttons ------------*/
+.option-buttons{
+    margin-top: 2em;
+}
+.option-buttons button{
+    padding: 0.6em;
+    margin: 0.2em;
+    font-size: 12px;
+    margin-top: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background: transparent;
+}
+.option-buttons button:hover{
+    background: rgb(112, 112, 112);
+    color: #fff;
+}
+/*------------------ MAC START --------------------*/
+/*----------- price section start ---------------*/
+.price-section{
+    width: 50%;
+}
+.price-section .price_first_div{
+    display: flex;
+    justify-content: space-between;
+}
+.price-section .price_first_div h3{
+    font-weight: 600;
+    font: 12px;
+    padding: 5px;
+}
+.price-section .price_first_div h3{
+    display: inline-block;
+}
+/*----------- price section end ---------------*/
+/*----------- Promo Code --------------------*/
+.code-section{
+    margin-top: 2em;
+}
+.code-section .promo-code #promo-input{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.code-section .promo-code #promo-input:active{
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.code-section .promo-code #promo-apply{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin: 3px;
+    background: rgb(212, 0, 0);
+    color: #fff;
+    border: none;
+}
+.code-section .promo-code #promo-apply:hover{
+    background: rgb(255, 0, 0);
+}
+
+.total .total-price{
+    border-top: 1.5px solid #000;
+    margin-bottom: 3em;
+}
+.total .total-price h1{
+    font-size: 3em;
+    text-align: center;
+}
+/*------- Footer start --------*/
+.footer{
+    display: flex;
+    justify-content: center;
+    background: rgb(80, 80, 80);
+    padding: 1.2em;
+}
+.footer p{
+    font-size: 1em;
+    color: #fff;
+}
