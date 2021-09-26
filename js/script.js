@@ -23,9 +23,9 @@ function basiTaka(pochondo){
     }
     else if(pochondo === 'taka-diya-taratai-delivery'){
         baritaDeliveryDeoarTaka.innerText = 20;
-    }
+    }else{
     sob()
-    
+    }
 }
 
 var puraTakaBeforeSobkisu = document.getElementById('pura-taka-before-sobkisu');
