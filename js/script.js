@@ -37,11 +37,11 @@ function sob(){
 }
 
 
-// document.getElementById('promo-apply').addEventListener('click', function(){
-//     var takaBacao = document.getElementById('promo-input');
-//     var amiKipta = document.getElementById('pura-taka-after-sobkisu');
-//     if(takaBacao.value === peskuthedon){
-//         puraTakaAfterSobkisu.innerText = amiKipta - (amiKipta * 100 / 25);
-//     }
-//     amiKipta.value = '';
-// })
+ document.getElementById('promo-apply').addEventListener('click', function(){
+     var takaBacao = document.getElementById('promo-input');
+     var amiKipta = document.getElementById('pura-taka-after-sobkisu');
+     if(takaBacao.value === peskuthedon){
+         puraTakaAfterSobkisu.innerText = amiKipta - (amiKipta * 100 / 25);
+     }
+     amiKipta.value = '';
+ })
